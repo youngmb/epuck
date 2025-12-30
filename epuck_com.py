@@ -1,4 +1,4 @@
-import epuck
+from epuck import epuck
 import serial   #pip install pyserial. If you have "serial" installed, it will not work.
 
 class EPuckCom(epuck.EPuck):

@@ -1,6 +1,6 @@
 import socket
 import select
-import epuck
+from epuck import epuck
 
 class EPuckIP(epuck.EPuck):
 

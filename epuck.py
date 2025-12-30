@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 import time
 from doctest import debug
 
-from epuck_state import *
+from .epuck_state import *
 
 ###Constants for user use
 CAM_MODE_RGB565 = 1
